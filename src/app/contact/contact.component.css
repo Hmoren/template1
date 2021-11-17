@@ -1,0 +1,13 @@
+img {
+  width: 150px;
+}
+p {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.icono {
+  font-size: 15px;
+  font-family: sans-serif;
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}

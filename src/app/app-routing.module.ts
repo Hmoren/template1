@@ -4,11 +4,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { AppComponent } from './app.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { AboutComponent } from './about/about.component';
 
 const app_routes: Routes = [
   { path: '', component: PrincipalComponent },  
   { path: 'product-detail', component: ProductDetailComponent },  
-  { path: 'principal', component: PrincipalComponent },  
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
