@@ -18,7 +18,7 @@ export class InfoPaginaService {
 
   private cargarInfo() {
     // Leer el archivo JSON
-    this.http.get('../assets/data/data-pagina.json')
+    this.http.get('assets/data/data-pagina.json')
     .subscribe( (resp: InfoPagina) => {
       
       this.info = resp;
@@ -27,7 +27,7 @@ export class InfoPaginaService {
 
   private cargarHeader() {
     // Leer el archivo JSON
-    this.http.get('../assets/data/data-header.json')
+    this.http.get('assets/data/data-header.json')
     .subscribe( (resp: InfoPagina) => {      
       this.header = resp;
     });
