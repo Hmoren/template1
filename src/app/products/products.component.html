@@ -1,0 +1,62 @@
+<!-- Services-->
+<section class="page-section" id="ambu">        
+    <div class="container px-4 px-lg-5" >
+        <h2 class="text-center mt-0">AMBU</h2>
+        <hr class="divider" />
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <!-- <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div> -->
+                    <div class="mb-2"><img class="img-fluid" src="assets/img/productos/304002000.png" alt="..." />
+                    </div>
+                    <p class="text-muted mb-0">Cod: 304002000</p>
+                    <h3 class="h4 mb-2">Resucitador Mark IV adulto</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <!-- <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div> -->
+                    <div class="mb-2"><img class="img-fluid" src="assets/img/productos/002810001.png" alt="..." />
+                    </div>
+                    <p class="text-muted mb-0">Cod: 002810001</p>
+                    <h3 class="h4 mb-2">Cuello ortopédico</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <!-- <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div> -->
+                    <div class="mb-2"><img class="img-fluid" src="assets/img/productos/470003100.png" alt="..." />
+                    </div>
+                    <p class="text-muted mb-0">Cod: 470003100</p>
+                    <h3 class="h4 mb-2">Resucitador Oval adulto</h3>
+                </div>
+            </div>
+            <div *ngFor="let producto of ambuDataList" class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">                    
+                    <div class="mb-2"><img class="img-fluid" [src]="producto.img"
+                            alt="..." /></div>
+                    <!-- <p class="text-muted mb-0">Cod: 304002000</p> -->
+                    <h3 class="h4 mb-2">{{producto.name}}</h3>
+                </div>
+            </div>   
+        </div>
+    </div>        
+</section>
+<section class="page-section" id="vyaire">       
+    <div class="container px-4 px-lg-5" >
+        <h2 class="text-center mt-0">VYAIRE</h2>
+        <hr class="divider" />
+        <div class="row gx-4 gx-lg-5">
+            <div *ngFor="let producto of vyaireDataList" class="col-lg-3 col-md-6 text-center">
+                <a [routerLink]="['../product-detail']" >
+                <div class="mt-5" >                    
+                    <div class="mb-2"><img class="img-fluid" [src]="producto.img"
+                            alt="..." /></div>
+                    <!-- <p class="text-muted mb-0">Cod: 304002000</p> -->
+                    <h3 class="h4 mb-2">{{producto.name}}</h3>
+                </div>
+            </a>
+            </div>            
+        </div>
+    </div>
+</section>
