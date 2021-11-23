@@ -3,16 +3,47 @@
     <div class="container px-4 px-lg-5">
         <h2 class="text-center mt-0">AMBU</h2>
         <hr class="divider" />
+
         <div class="row gx-4 gx-lg-5">
             <div *ngFor="let producto of ambuDataList" class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                    <div class="mb-2"><img class="img-fluid" [src]="producto.img" alt="..." /></div>
-                    <!-- <p class="text-muted mb-0">Cod: 304002000</p> -->
-                    <h3 class="h4 mb-2">{{producto.name}}</h3>
-                </div>
+                <a (click)="editProduct(contenido, producto)">
+                    <div class="mt-5">
+                        <div class="mb-2"><img class="img-fluid" [src]="producto.img" alt="..." /></div>
+                        <!-- <p class="text-muted mb-0">Cod: 304002000</p> -->
+                        <h3 class="h4 mb-2">{{producto.name}}</h3>
+                    </div>
+                </a>
             </div>
         </div>
+
     </div>
+
+
+    <ng-template #contenido let-modal>
+        <div *ngFor="let detalle of productosFiltrado">
+            <div class="modal-header text-center">
+                <h4 class="modal-title ">{{detalle.titulo}}</h4>
+                <button class="close" aria-label="close" type="button" (click)="modal.dismiss()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row"><p><strong>Marca: </strong>{{detalle.marca}}</p> </div>
+                        <div class="row"><p><strong>Descripcion: </strong>{{detalle.description}}</p></div>
+                         </div>
+                    <div class="col-md-6"><img class="img-fluid" [src]="detalle.img" alt="..." style="width: 300px;" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </ng-template>
+
+
 </section>
 <section class="page-section" id="vyaire">
     <div class="container px-4 px-lg-5">
@@ -20,10 +51,12 @@
         <hr class="divider" />
         <div class="row gx-4 gx-lg-5">
             <div *ngFor="let producto of vyaireDataList" class="col-lg-3 col-md-6 text-center">
+                <a (click)="editProduct(contenido, producto)">
                 <div class="mt-5">
-                    <div class="mb-2"><img class="img-fluid" [src]="producto.img" alt="..." /></div>                    
+                    <div class="mb-2"><img class="img-fluid" [src]="producto.img" alt="..." /></div>
                     <h3 class="h4 mb-2">{{producto.name}}</h3>
                 </div>
+            </a>
             </div>
         </div>
     </div>
