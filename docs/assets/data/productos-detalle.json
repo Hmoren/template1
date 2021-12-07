@@ -159,7 +159,6 @@
         "img": "assets/img/productos/vyaire/9.jpg",
         "sku": "22309"
     },
-    
     {
         "id": "10",
         "marca": "VYAIRE",
@@ -208,5 +207,4 @@
         "img": "assets/img/productos/vyaire/15.jpg",
         "sku": "22315"
     }
-    
 ]
