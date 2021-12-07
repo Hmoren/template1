@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "name": "AMBU",
+        "url": "ambu",
+        "productos": [
+            {
+                "id": "1",
+                "marca": "AMBU",
+                "name": "Reanimador Mark IV Adulto y Baby",
+                "img": "assets/img/productos/ambu/1.jpg",
+                "sku": "12301"
+            },
+            {
+                "id": "2",
+                "marca": "AMBU",
+                "name": "Resucitador Silicona Oval",
+                "img": "assets/img/productos/ambu/2.jpg",
+                "sku": "12302"
+            },
+            {
+                "id": "3",
+                "marca": "AMBU",
+                "name": "Resucitador SPUR II",
+                "img": "assets/img/productos/ambu/3.jpg",
+                "sku": "12303"
+            },
+            {
+                "id": "4",
+                "marca": "AMBU",
+                "name": "Mascarillas Transparente con borde azul inflable",
+                "img": "assets/img/productos/ambu/4.jpg",
+                "sku": "12304"
+            },
+            {
+                "id": "5",
+                "marca": "AMBU",
+                "name": "Mascarillas de Silicona Transparente Libre de Latex",
+                "img": "assets/img/productos/ambu/5.jpg",
+                "sku": "12305"
+            },
+            {
+                "id": "6",
+                "marca": "AMBU",
+                "name": "Válvula PEEP Desechable",
+                "img": "assets/img/productos/ambu/6.jpg",
+                "sku": "12306"
+            },
+            {
+                "id": "7",
+                "marca": "AMBU",
+                "name": "Válvula PEEP Reutilizable",
+                "img": "assets/img/productos/ambu/7.jpg",
+                "sku": "12307"
+            },
+            {
+                "id": "8",
+                "marca": "AMBU",
+                "name": "Manometro de Presion desechable",
+                "img": "assets/img/productos/ambu/8.jpg",
+                "sku": "12308"
+            },
+            {
+                "id": "9",
+                "marca": "AMBU",
+                "name": "Manique Ambu MAN BASICO",
+                "img": "assets/img/productos/ambu/9.jpg",
+                "sku": "12309"
+            },
+            {
+                "id": "10",
+                "marca": "AMBU",
+                "name": "Manique Ambu BABY",
+                "img": "assets/img/productos/ambu/10.jpg",
+                "sku": "12310"
+            },
+            {
+                "id": "11",
+                "marca": "AMBU",
+                "name": "Collar Cervical",
+                "img": "assets/img/productos/ambu/11.jpg",
+                "sku": "12311"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "VYAIRE",
+        "url": "vyaire",
+        "productos": [
+            {
+                "id": "1",
+                "marca": "VYAIRE",
+                "name": "El Pimometro digital MicroRPM",
+                "img": "assets/img/productos/vyaire/1.jpg",
+                "sku": "22301"
+            },
+            {
+                "id": "2",
+                "marca": "VYAIRE",
+                "name": "Sotware PUMA",
+                "img": "assets/img/productos/vyaire/2.jpg",
+                "sku": "22302"
+            },
+            {
+                "id": "3",
+                "marca": "VYAIRE",
+                "name": "Medidor de CO Exalado Grado medico",
+                "img": "assets/img/productos/vyaire/3.jpg",
+                "sku": "22303"
+            },
+            {
+                "id": "4",
+                "marca": "VYAIRE",
+                "name": "Turbina bidireccional  GOLD ESTÁNDAR",
+                "img": "assets/img/productos/vyaire/4.jpg",
+                "sku": "22304"
+            },
+            {
+                "id": "5",
+                "marca": "VYAIRE",
+                "name": "Filtro MicroGard para Espirometro Microlab y Jaeger",
+                "img": "assets/img/productos/vyaire/5.jpg",
+                "sku": "22305"
+            },
+            {
+                "id": "6",
+                "marca": "VYAIRE",
+                "name": "Set para PIMOMETRO DIGITAL Micro RPM",
+                "img": "assets/img/productos/vyaire/6.jpg",
+                "sku": "22306"
+            },
+            {
+                "id": "7",
+                "marca": "VYAIRE",
+                "name": "Cargador de corriente para espirometro Microlab ML3500",
+                "img": "assets/img/productos/vyaire/7.jpg",
+                "sku": "22307"
+            },
+            {
+                "id": "8",
+                "marca": "VYAIRE",
+                "name": "Transductor de Espirometro Microlab ML3500",
+                "img": "assets/img/productos/vyaire/8.jpg",
+                "sku": "22308"
+            },
+            {
+                "id": "9",
+                "marca": "VYAIRE",
+                "name": "Valvual expiratoria para Micro RPM (Pimometro Digital)",
+                "img": "assets/img/productos/vyaire/9.jpg",
+                "sku": "22309"
+            },
+            {
+                "id": "10",
+                "marca": "VYAIRE",
+                "name": "Valvual inspiratoria para Micro RPM (Pimometro Digital)",
+                "img": "assets/img/productos/vyaire/10.jpg",
+                "sku": "22310"
+            },
+            {
+                "id": "11",
+                "marca": "VYAIRE",
+                "name": "Set para PIMOMETRO DIGITAL Micro RPM",
+                "img": "assets/img/productos/vyaire/11.jpg",
+                "sku": "22311"
+            },
+            {
+                "id": "12",
+                "marca": "VYAIRE",
+                "name": "Jeringa de 3 litros para realizar maniobra de verificación de calibración",
+                "img": "assets/img/productos/vyaire/12.jpg",
+                "sku": "22312"
+            },
+            {
+                "id": "13",
+                "marca": "VYAIRE",
+                "name": "Papel para impresora térmica espirometro kit de 1 X 10 rollos",
+                "img": "assets/img/productos/vyaire/13.jpg",
+                "sku": "22313"
+            },
+            {
+                "id": "14",
+                "marca": "VYAIRE",
+                "name": "Boquilla de Carton desechable para  espirometrias de Adultos y Pediatria",
+                "img": "assets/img/productos/vyaire/14.jpg",
+                "sku": "22314"
+            },
+            {
+                "id": "15",
+                "marca": "VYAIRE",
+                "name": "Boquillas para medidor de CO 21,8 X 20 X 62",
+                "img": "assets/img/productos/vyaire/15.jpg",
+                "sku": "22315"
+            }
+        ]
+    }
+]
