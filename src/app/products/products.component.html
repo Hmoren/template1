@@ -1,6 +1,4 @@
 <!-- Services-->
-
-
 <div *ngFor="let marca of productoService.productos">
     <section class="page-section" id={{marca.url}}>
         <div class="container px-4 px-lg-5">
@@ -20,7 +18,6 @@
                 </div>
             </div>
         </div>
-
         <ng-template #contenido let-modal>
             <div *ngFor="let detalle of productosFiltrado">
                 <div class="modal-header text-center">
@@ -44,12 +41,8 @@
                                 style="width: 300px;" />
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </ng-template>
-
     </section>
 </div>

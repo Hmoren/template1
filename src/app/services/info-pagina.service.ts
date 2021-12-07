@@ -11,7 +11,7 @@ export class InfoPaginaService {
   info: InfoPagina = {};
   header: InfoHeader = {};
 
-  constructor(private http: HttpClient) { 
+  constructor(private http: HttpClient) {
     this.cargarInfo();
     this.cargarHeader();
   }
@@ -19,20 +19,17 @@ export class InfoPaginaService {
   private cargarInfo() {
     // Leer el archivo JSON
     this.http.get('assets/data/data-pagina.json')
-    .subscribe( (resp: InfoPagina) => {
-      
-      this.info = resp;
-    });
+      .subscribe((resp: InfoPagina) => {
+        this.info = resp;
+      });
   }
 
   private cargarHeader() {
     // Leer el archivo JSON
     this.http.get('assets/data/data-header.json')
-    .subscribe( (resp: InfoPagina) => {      
-      this.header = resp;
-    });
+      .subscribe((resp: InfoPagina) => {
+        this.header = resp;
+      });
   }
-
-
 
 }

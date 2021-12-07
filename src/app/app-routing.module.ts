@@ -7,8 +7,8 @@ import { PrincipalComponent } from './principal/principal.component';
 import { AboutComponent } from './about/about.component';
 
 const app_routes: Routes = [
-  { path: '', component: PrincipalComponent },  
-  { path: 'product-detail', component: ProductDetailComponent },  
+  { path: '', component: PrincipalComponent },
+  { path: 'product-detail', component: ProductDetailComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
@@ -16,10 +16,10 @@ const app_routes: Routes = [
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot( app_routes, { useHash: true } )
+    RouterModule.forRoot(app_routes, { useHash: true })
   ],
   exports: [
-      RouterModule
+    RouterModule
   ]
 })
 export class AppRoutingModule { }
