@@ -1,6 +1,5 @@
 <!-- Contact-->
 <section class="page-section" id="contact">
-
     <div class="col-lg-12">
         <div class="container ">
             <div class="row justify-content-center">
@@ -11,17 +10,8 @@
             </div>
         </div>
     </div>
-
-
-
-
     <div class="container">
         <div class="row">
-
-
-
-
-
             <div class="col-lg-2">
                 <div class="team-member">
                     <img class="mx-auto rounded-circle text-center" src="assets/img/team/team-vvillegas.jpg"
@@ -33,7 +23,7 @@
                     </div>
                     <div class="icono">
                         <i class="bi bi-envelope fs-3 mb-3 text-muted"></i> vvillegas@ivensmedlab.cl
-                    </div>                   
+                    </div>
                 </div>
             </div>
             <div class="col-lg-2">
@@ -47,85 +37,57 @@
                     </div>
                     <div class="icono">
                         <i class="bi bi-envelope fs-3 mb-3 text-muted"></i> mrupallan@ivensmedlab.cl
-                    </div>                   
+                    </div>
                 </div>
             </div>
-            
             <div class="col-lg-8">
                 <div class="container ">
-
                     <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                         <div class="col-lg-6">
-
-                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                <!-- Name input-->
+                            <form id="contactForm" [formGroup]="form">
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                        data-sb-validations="required" />
+                                        data-sb-validations="required" formControlName="name" />
                                     <label for="name">Nombre completo</label>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">El nombre completo es
+                                    <div class="feedback" *ngIf="campoEsValido('name')">El nombre completo es
                                         requerido.</div>
                                 </div>
-                                <!-- Email address input-->
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                        data-sb-validations="required,email" />
+                                        data-sb-validations="required,email" formControlName="email" />
                                     <label for="email">Dirección email</label>
-                                    <div class="invalid-feedback" data-sb-feedback="email:required">El email es
+                                    <div class="feedback" *ngIf="campoEsValido('email')">El email es
                                         requerido.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">El email no es valido.
+                                    <div class="invalid-feedback" *ngIf="campoEsValido('email')">El email no es valido.
                                     </div>
                                 </div>
-                                <!-- Phone number input-->
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                                        data-sb-validations="required" />
+                                        data-sb-validations="required" formControlName="phone" />
                                     <label for="phone">Número de contacto</label>
-                                    <div class="invalid-feedback" data-sb-feedback="phone:required">El núnero de
+                                    <div class="feedback" *ngIf="campoEsValido('phone')">El núnero de
                                         contacto es requerido.
                                     </div>
                                 </div>
-                                <!-- Message input-->
                                 <div class="form-floating mb-3">
                                     <textarea class="form-control" id="message" type="text"
                                         placeholder="Enter your message here..." style="height: 10rem"
-                                        data-sb-validations="required"></textarea>
+                                        data-sb-validations="required" formControlName="message"></textarea>
                                     <label for="message">Mensaje</label>
-                                    <div class="invalid-feedback" data-sb-feedback="message:required">El mensaje es
+                                    <div class="feedback" *ngIf="campoEsValido('message')">El mensaje es
                                         requerido.
                                     </div>
                                 </div>
-                                <!-- Submit success message-->
-                                <!---->
-                                <!-- This is what your users will see when the form-->
-                                <!-- has successfully submitted-->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
-                                        To activate this form, sign up at
-                                        <br />
-                                        <a
-                                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                    </div>
-                                </div>
-                                <!-- Submit error message-->
-                                <!---->
-                                <!-- This is what your users will see when there is-->
-                                <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage">
-                                    <div class="text-center text-danger mb-3">Error sending message!</div>
-                                </div>
                                 <!-- Submit Button-->
-                                <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton"
-                                        type="submit">Enviar</button></div>
+                                <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton"
+                                        type="submit" [disabled]="form.invalid" (click)="enviar()">Enviar</button></div>
+                                <div class="feedback-ok" *ngIf="mensajeEnviado">Mesaje enviado correctamente
+                                </div>
                             </form>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
-
     </div>
-
 </section>
