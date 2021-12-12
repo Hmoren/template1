@@ -2,6 +2,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { environment } from 'src/environments/environment';
+import { ContactService } from '../services/contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -15,7 +16,10 @@ export class ContactComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private http: HttpClient) { }
+    private http: HttpClient,
+    public _servicio: ContactService
+    ) {     
+     }
 
   ngOnInit() {
     this.form = this.fb.group({

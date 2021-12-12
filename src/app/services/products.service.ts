@@ -23,7 +23,6 @@ export class ProductsService {
     // Leer el archivo JSON
     this.http.get('assets/data/productos_idx.json')
       .subscribe((resp: any) => {
-
         this.productos = resp;
       });
   }
