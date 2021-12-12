@@ -1,58 +1,33 @@
 <!-- About-->
 <section class="page-section bg-primary" id="about">
-    <!-- <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="text-white mt-0">Ivens MedLab SPA</h2>
-                <hr class="divider divider-light" />
-                <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and
-                    running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                    strings attached!</p>
-                   
-                <a class="btn btn-light btn-xl" href="#products">Productos</a>
-            </div>
-        </div>
-    </div> -->
-
-
-
-
-
-    <h2 class="text-white mt-0 text-center">IVENS MEDLAB SPA</h2>
+    <h2 class="text-white mt-0 text-center">{{_servicio.info.titulo}}</h2>
     <hr class="divider divider-light" />
     <div class="container my-4">
         <div class="row align-items-start text-white">
-            <div class="col">
-                <h2>Sobre nosotros</h2>
+            <div *ngIf="_servicio.info.nosotros" class="col">
+                <h2>{{_servicio.info.tituloNosotros}}</h2>
             </div>
-            <div class="col">
-                <h2>Our Mission</h2>
+            <div *ngIf="_servicio.info.mision" class="col">
+                <h2>{{_servicio.info.tituloMision}}</h2>
             </div>
-            <div class="col">
-                <h2>Our Clients</h2>
+            <div *ngIf="_servicio.info.clientes" class="col">
+                <h2>{{_servicio.info.tituloClientes}}</h2>
             </div>
         </div>
         <div class="row align-items-center text-white">
-            <div class="col">
+            <div *ngIf="_servicio.info.nosotros" class="col">
                 <p>
-                    Somos una empresa con más de 18 años de experiencia en el mercado, hoy especializada con productos
-                    líderes en el área de Respiración Manual , Rescate y Docencia , con AMBU y VYAIRE. Estamos enfocados
-                    en satisfacer las necesidades de nuestra clientela y para ello contamos con un staff especializado
-                    que brinda asistencia rápida y confiable, siempre comprometidos a entregar un servicio de calidad.
+                    {{_servicio.info.parrafoNosotros}}
                 </p>
             </div>
-            <div class="col">
+            <div *ngIf="_servicio.info.mision" class="col">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
+                    {{_servicio.info.parrafoMision}}
                 </p>
             </div>
-            <div class="col">
+            <div *ngIf="_servicio.info.clientes" class="col">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
+                    {{_servicio.info.parrafoClientes}}
                 </p>
             </div>
         </div>
@@ -61,7 +36,6 @@
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-
                 <a class="btn btn-light btn-xl" href="#ambu">Productos</a>
             </div>
         </div>
