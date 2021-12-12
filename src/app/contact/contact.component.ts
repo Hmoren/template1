@@ -1,6 +1,7 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-contact',
@@ -32,7 +33,7 @@ export class ContactComponent implements OnInit {
       .set('phone', this.form.get('phone')?.value)
       .set('message', this.form.get('message')?.value);
     const headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
-    this.http.post("https://www.hmoreno.dev/assets/contact.php", body1, { headers }).subscribe((resultado: any) => {
+    this.http.post(environment.urlCorreo, body1, { headers }).subscribe((resultado: any) => {
       console.log(resultado);
       const returnjson: any[] = Array.of(resultado);
       console.log(returnjson);

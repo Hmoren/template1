@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urlCorreo: 'http://ivensmedlab.cl/ivens_v2/assets/contact.php'
 };
 
 /*
