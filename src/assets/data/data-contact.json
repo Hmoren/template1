@@ -5,7 +5,7 @@
         "estado": true,
         "contacto": [
             {
-                "img":"assets/img/team/team-vvillegas.jpg",
+                "img":"assets/img/team/icon.jpg",
                 "nombre": "Veronica Villegas",
                 "cargo": "Área de respiración",
                 "celular": "+569 67525347",
@@ -19,7 +19,7 @@
         "estado": true,
         "contacto": [
             {   
-                "img":"assets/img/team/team-mrupallan.jpg",
+                "img":"assets/img/team/icon.jpg",
                 "nombre": "Maria Isabel Rupallan",
                 "cargo": "Asistente de Ventas",
                 "celular": "+569 94621671",
