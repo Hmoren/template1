@@ -3,7 +3,7 @@
         "id": "1",
         "marca": "AMBU",
         "titulo": "Reanimador Mark IV Adulto y Baby",
-        "description": "Ambu original, lider mundial en resucitadores. Contamos con dos modelos Adulto y Pediatrico. los resucitadores Ambu Mark IV Adulto  y Mark IV Baby ( Pediatrico y Neonatal)  fáciles de sostener gracias al Asa de sujecion incorporada y bolsa doble, completamente autoclavables para su reutilización.",
+        "description": "Ambu original, líder mundial en resucitadores. Contamos con dos modelos Adulto y Pediátrico. los resucitadores Ambu Mark IV Adulto y Mark IV Baby (Pediátrico y Neonatal) fáciles de sostener gracias al Asa de sujeción incorporada y bolsa doble, completamente autoclavables para su reutilización.",
         "img": "assets/img/productos/ambu/1.jpg",
         "sku": "12301"
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "marca": "AMBU",
         "titulo": "Resucitador Silicona Oval",
-        "description": "Ambu original, lider mundial en resucitadores. Resucitador Silicona Oval se ha diseñado para la ventilación manual desde pacientes neonatos hasta adultos. Es un resucitador de silicona reutilizable.",
+        "description": "Ambu original, líder mundial en resucitadores. Resucitador Silicona Oval se ha diseñado para la ventilación manual desde pacientes neonatos hasta adultos. Es un resucitador de silicona reutilizable.",
         "img": "assets/img/productos/ambu/2.jpg",
         "sku": "12302"
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "marca": "AMBU",
         "titulo": "Resucitador SPUR II",
-        "description": "Ambu SPUR II desechable ofrece a los usuarios una excepcional sensación táctil y visual durante la reanimación. La bolsa es muy sensible y muestra una resistencia mecánica mínima. Su diseño  proporciona un volumen de expulsión óptimo con un retroceso perfecto. Disponible para pacientes neonatos, pediatricos y adulto.",
+        "description": "Ambu SPUR II desechable ofrece a los usuarios una excepcional sensación táctil y visual durante la reanimación. La bolsa es muy sensible y muestra una resistencia mecánica mínima. Su diseño proporciona un volumen de expulsión óptimo con un retroceso perfecto. Disponible para pacientes neonatos, Pediátricos y adulto.",
         "img": "assets/img/productos/ambu/3.jpg",
         "sku": "12303"
     },
@@ -34,8 +34,8 @@
     {
         "id": "5",
         "marca": "AMBU",
-        "titulo": "Mascarillas de Silicona Transparente Libre de Latex",
-        "description": "Mascarilla Adulto/Pediatrica/Neo de silicona trans-parente libre de latex, manguito abierto, reusable para reanimadores manuales. 6 tamaños",
+        "titulo": "Mascarillas de Silicona Transparente Libre de Látex",
+        "description": "Mascarilla Adulto/Pediátrica/Neo de silicona transparente libre de Látex, manguito abierto, reusable para reanimadores manuales. 6 tamaños",
         "img": "assets/img/productos/ambu/5.jpg",
         "sku": "12305"
     },
@@ -58,7 +58,7 @@
     {
         "id": "8",
         "marca": "AMBU",
-        "titulo": "Manometro de Presion desechable",
+        "titulo": "Manómetro de Presión desechable",
         "description": "Manómetro de presión desechable diseñado para monitorizar la presión de la vía respiratoria del paciente. Diseño pequeño, preciso y fiable que elimina cualquier riesgo de contaminación cruzada, no contiene látex ni PVC. Compatible con todos los reanimadores Ambu. Dimensiones: 55mm de largo por 22mmØ.",
         "img": "assets/img/productos/ambu/8.jpg",
         "sku": "12308"
@@ -67,7 +67,7 @@
         "id": "9",
         "marca": "AMBU",
         "titulo": "Manique Ambu MAN BASICO",
-        "description": "Maniquí Ambu MAN tiene un diseño de torso cerrado para formación académica,  proporciona una percepción muy real de la ventilación. El indicador de compresión confirma la profundidad correcta de la compresión. Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero,  compacto y fácil de transportar. Medidas:70 x 33 x 20 cm. Peso: 2 Kgs.",
+        "description": "Maniquí Ambu MAN tiene un diseño de torso cerrado para formación académica, proporciona una percepción muy real de la ventilación. El indicador de compresión confirma la profundidad correcta de la compresión. Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero, compacto y fácil de transportar. Medidas:70 x 33 x 20 cm. Peso: 2 Kgs.",
         "img": "assets/img/productos/ambu/9.jpg",
         "sku": "12309"
     },
@@ -75,7 +75,7 @@
         "id": "10",
         "marca": "AMBU",
         "titulo": "Manique Ambu BABY",
-        "description": "Ambu Baby  para  RCP  simulador bebé, tamaño real de un niño de 1 año de edad. Práctica de técnica de BLS (Apoyo vital básico) este maniquí entrega verificación de correcta simulación en RCP. Ambu patentó sistema de protección, higiénico, con  su  sistema  de piezas faciales de bebé, intercambiables. Puede  verificarse  en  forma  visual,  audible y palpable la ventilación y natural exalación. El  instructor  puede simular obstrucción en la vía aérea. Simulación real de pulso braquial, prevee correcto entrenamiento. Peso : 2,5Kgs. con caja. Largo : 40 cms.",
+        "description": "Ambu Baby para RCP simulador bebé, tamaño real de un niño de 1 año de edad. Práctica de técnica de BLS (Apoyo vital básico) este maniquí entrega verificación de correcta simulación en RCP. Ambu patentó sistema de protección, higiénico, con su sistema de piezas faciales de bebé, intercambiables. Puede verificarse en forma visual, audible y palpable la ventilación y natural exhalación. El instructor puede simular obstrucción en la vía aérea. Simulación real de pulso braquial, prevé correcto entrenamiento. Peso: 2,5Kgs. con caja. Largo: 40 cms.",
         "img": "assets/img/productos/ambu/10.jpg",
         "sku": "12310"
     },
@@ -83,31 +83,31 @@
         "id": "11",
         "marca": "AMBU",
         "titulo": "Collar Cervical",
-        "description": "Collar cervical rígido Mini Perfit Ace, de una sola pieza, ajustable en 12 graduaciones o posiciones precisas. 2 Modelos (Neonatal/Pediátrico, niño) (y mayor o adultos muy pequeños). Desechable. Material: Polietileno. Color: Amarillo/Gris claro.",
+        "description": "Collar cervical rígido Mini Perfit Ace, de una sola pieza, ajustable en 12 graduaciones o posiciones precisas. 2 modelos (Neonatal/Pediátrico, niño) (y mayor o adultos muy pequeños). Desechable. Material: Polietileno. Color: Amarillo/Gris claro.",
         "img": "assets/img/productos/ambu/11.jpg",
         "sku": "12311"
     },
     {
         "id": "1",
         "marca": "VYAIRE",
-        "titulo": "El Pimometro digital MicroRPM",
-        "description": "El Pimometro digital MicroRPM (Medidor de Presión Respiratoria) se utiliza en la toma de presión máxima inspiratoria y presión maxima espiratoria de boca (MIP/MEP) incluye presión nasal inspiratoria (SNIP) en un solo instrumento. Estas pruebas no son invasivas, mas bien son tecnicas simples que evaluan la fuerza muscular respiratoria esenciales en el seguimiento de pacientes con EPOC que se someten a un programa de rehabilitación pulmonar y también son útiles en la detección de otras enfermedades que afectan a la función de los músculos respiratorios o secuelas Covid. Fácil de usar, opera a batería de 9V, el MicroRPM cuenta con una pantalla digital clara donde muestra los resultados en cmH2O y viene completo con todos los accesorios en su maletín de proteccion. También se ofrece como opción el software PUMA para PC.software de base de datos y análisis.",
+        "titulo": "El Pirómetro digital Micro RPM",
+        "description": "El Pirómetro digital Micro RPM (Medidor de Presión Respiratoria) se utiliza en la toma de presión máxima inspiratoria y presión máxima espiratoria de boca (MIP/MEP) incluye presión nasal inspiratoria (SNIP) en un solo instrumento. Estas pruebas no son invasivas, más bien son técnicas simples que evalúan la fuerza muscular respiratoria esenciales en el seguimiento de pacientes con EPOC que se someten a un programa de rehabilitación pulmonar y también son útiles en la detección de otras enfermedades que afectan a la función de los músculos respiratorios o secuelas Covid. Fácil de usar, opera a batería de 9V, el Micro RPM cuenta con una pantalla digital clara donde muestra los resultados en cmH2O y viene completo con todos los accesorios en su maletín de protección. También se ofrece como opción el software PUMA para PC. Software de base de datos y análisis.",
         "img": "assets/img/productos/vyaire/1.jpg",
         "sku": "22301"
     },
     {
         "id": "2",
         "marca": "VYAIRE",
-        "titulo": "Sotware PUMA",
-        "description": "Complemento Opcional para un mejor uso de Pimometro Digital Micro RPM",
+        "titulo": "Software PUMA",
+        "description": "Complemento Opcional para un mejor uso de Pirómetro Digital Micro RPM",
         "img": "assets/img/productos/vyaire/2.jpg",
         "sku": "22302"
     },
     {
         "id": "3",
         "marca": "VYAIRE",
-        "titulo": "Medidor de CO Exalado Grado medico",
-        "description": "Medidor de CO Exalado Grado medico. Intrumento para Screening que ayuda a determinar el rango de CO del Gas alveolar exalado. Tiene Cuatro rangos de niveles CO son presentados en el display personalizable del LCD. Una herramienta util en programas antitabaco.",
+        "titulo": "Medidor de CO Exhalado Grado médico",
+        "description": "Medidor de CO Exhalado Grado médico. Instrumento para Screening que ayuda a determinar el rango de CO del Gas alveolar exhalado. Tiene Cuatro rangos de niveles CO son presentados en el display personalizable del LCD. Una herramienta útil en programas antitabaco.",
         "img": "assets/img/productos/vyaire/3.jpg",
         "sku": "22303"
     },
@@ -115,63 +115,63 @@
         "id": "4",
         "marca": "VYAIRE",
         "titulo": "Turbina bidireccional GOLD ESTÁNDAR",
-        "description": "Turbina bidireccional  GOLD ESTÁNDAR compatible con espirometro modelos ML3500 y MK6, color gris y negro",
+        "description": "Turbina bidireccional GOLD ESTÁNDAR compatible con espirómetro modelos ML3500 y MK6, color gris y negro",
         "img": "assets/img/productos/vyaire/4.jpg",
         "sku": "22304"
     },
     {
         "id": "5",
         "marca": "VYAIRE",
-        "titulo": "Filtro MicroGard para Espirometro Microlab y Jaeger",
-        "description": "Filtro MicroGard para Espirometro Microlab y Jaeger,  tiene una boquilla integrada adecuada para uso adulto y pediátrico. La caja trae 50 filtros individuales. Eficiencia viral y bacteriana del 99,999% contra la contaminación cruzada (Informe de prueba de Nelson 10003754). Baja resistencia al flujo de aire. Espacio muerto mínimo (55 ml). La carcasa del filtro y el vellón del filtro han sido sometidos a pruebas de biocompatibilidad.",
+        "titulo": "Filtro MicroGard para espirómetro Microlab y Jaeger",
+        "description": "Filtro MicroGard para espirómetro Microlab y Jaeger, tiene una boquilla integrada adecuada para uso adulto y pediátrico. La caja trae 50 filtros individuales. Eficiencia viral y bacteriana del 99,999% contra la contaminación cruzada (Informe de prueba de Nelson 10003754). Baja resistencia al flujo de aire. Espacio muerto mínimo (55 ml). La carcasa del filtro y el vellón del filtro han sido sometidos a pruebas de biocompatibilidad.",
         "img": "assets/img/productos/vyaire/5.jpg",
         "sku": "22305"
     },
     {
         "id": "6",
         "marca": "VYAIRE",
-        "titulo": "Set para PIMOMETRO DIGITAL Micro RPM",
-        "description": "Set para PIMOMETRO DIGITAL Micro RPM, de 80 filtros bacterianos de presión bucal en bolsa individual que incluye: Filtro Antibacterial Pinza nazal Boquilla de silicona tipo Buceo.",
+        "titulo": "Set para Pirómetro DIGITAL Micro RPM",
+        "description": "Set para Pirómetro DIGITAL Micro RPM, de 80 filtros bacterianos de presión bucal en bolsa individual que incluye: Filtro Antibacterial Pinza nasal Boquilla de silicona tipo Buceo.",
         "img": "assets/img/productos/vyaire/6.jpg",
         "sku": "22306"
     },
     {
         "id": "7",
         "marca": "VYAIRE",
-        "titulo": "Cargador de corriente para espirometro Microlab ML3500",
-        "description": "Cargador de corriente para espirometro Microlab ML3500",
+        "titulo": "Cargador de corriente para espirómetro Microlab ML3500",
+        "description": "Cargador de corriente para espirómetro Microlab ML3500",
         "img": "assets/img/productos/vyaire/7.jpg",
         "sku": "22307"
     },
     {
         "id": "8",
         "marca": "VYAIRE",
-        "titulo": "Transductor de Espirometro Microlab ML3500",
-        "description": "Transductor de Espirometro Microlab ML3500",
+        "titulo": "Transductor de espirómetro Microlab ML3500",
+        "description": "Transductor de espirómetro Microlab ML3500",
         "img": "assets/img/productos/vyaire/8.jpg",
         "sku": "22308"
     },
     {
         "id": "9",
         "marca": "VYAIRE",
-        "titulo": "Valvual expiratoria para Micro RPM (Pimometro Digital)",
-        "description": "Valvual expiratoria para Micro RPM (Pimometro Digital)",
+        "titulo": "Válvula espiratoria para Micro RPM (Pirómetro Digital)",
+        "description": "Válvula espiratoria para Micro RPM (Pirómetro Digital)",
         "img": "assets/img/productos/vyaire/9.jpg",
         "sku": "22309"
     },
     {
         "id": "10",
         "marca": "VYAIRE",
-        "titulo": "Valvual inspiratoria para Micro RPM (Pimometro Digital)",
-        "description": "Valvual inspiratoria para Micro RPM (Pimometro Digital). Unidad de Venta bolsa de 100 unidades",
+        "titulo": "Válvula inspiratoria para Micro RPM (Pirómetro Digital)",
+        "description": "Válvula inspiratoria para Micro RPM (Pirómetro Digital). Unidad de Venta bolsa de 100 unidades",
         "img": "assets/img/productos/vyaire/10.jpg",
         "sku": "22310"
     },
     {
         "id": "11",
         "marca": "VYAIRE",
-        "titulo": "Set para PIMOMETRO DIGITAL Micro RPM",
-        "description": "Set para PIMOMETRO DIGITAL Micro RPM, de 4 adaptadores nasales para maniobra Snif: 4 medidas.",
+        "titulo": "Set para Pirómetro DIGITAL Micro RPM",
+        "description": "Set para Pirómetro DIGITAL Micro RPM, de 4 adaptadores nasales para maniobra Snif: 4 medidas.",
         "img": "assets/img/productos/vyaire/11.jpg",
         "sku": "22311"
     },
@@ -186,16 +186,16 @@
     {
         "id": "13",
         "marca": "VYAIRE",
-        "titulo": "Papel para impresora térmica espirometro kit de 1 X 10 rollos",
-        "description": "Papel para impresora térmica espirometro kit de 1 X 10 rollos, compatible con Espirometros Microlab .",
+        "titulo": "Papel para impresora térmica espirómetro kit de 1 X 10 rollos",
+        "description": "Papel para impresora térmica espirómetro kit de 1 X 10 rollos, compatible con Espirómetros Microlab.",
         "img": "assets/img/productos/vyaire/13.jpg",
         "sku": "22313"
     },
     {
         "id": "14",
         "marca": "VYAIRE",
-        "titulo": "Boquilla de Carton desechable para  espirometrias de Adultos y Pediatria",
-        "description": "Boquilla de Carton desechable para  espirometrias de Adultos y Pediatria. Unidad de venta en bolsas de 100 unidades. Boquilla Adulto medidas 30 X 28 X 67 de largo. Boquilla Pediatrica medidas  21,8 X 20 X 62 de Largo",
+        "titulo": "Boquilla de Cartón desechable para espirometrías de Adultos y Pediatría",
+        "description": "Boquilla de Cartón desechable para espirometrías de Adultos y Pediatría. Unidad de venta en bolsas de 100 unidades. Boquilla Adulto medidas 30 X 28 X 67 de largo. Boquilla Pediátrica medidas 21,8 X 20 X 62 de Largo",
         "img": "assets/img/productos/vyaire/14.jpg",
         "sku": "22314"
     },
