@@ -35,7 +35,7 @@
             {
                 "id": "5",
                 "marca": "AMBU",
-                "name": "Mascarillas de Silicona Transparente Libre de Latex",
+                "name": "Mascarillas de Silicona Transparente Libre de Látex",
                 "img": "assets/img/productos/ambu/5.jpg",
                 "sku": "12305"
             },
@@ -56,7 +56,7 @@
             {
                 "id": "8",
                 "marca": "AMBU",
-                "name": "Manometro de Presion desechable",
+                "name": "Manómetro de Presión desechable",
                 "img": "assets/img/productos/ambu/8.jpg",
                 "sku": "12308"
             },
@@ -91,77 +91,77 @@
             {
                 "id": "1",
                 "marca": "VYAIRE",
-                "name": "El Pimometro digital MicroRPM",
+                "name": "El Pirómetro digital Micro RPM",
                 "img": "assets/img/productos/vyaire/1.jpg",
                 "sku": "22301"
             },
             {
                 "id": "2",
                 "marca": "VYAIRE",
-                "name": "Sotware PUMA",
+                "name": "Software PUMA",
                 "img": "assets/img/productos/vyaire/2.jpg",
                 "sku": "22302"
             },
             {
                 "id": "3",
                 "marca": "VYAIRE",
-                "name": "Medidor de CO Exalado Grado medico",
+                "name": "Medidor de CO Exhalado Grado medico",
                 "img": "assets/img/productos/vyaire/3.jpg",
                 "sku": "22303"
             },
             {
                 "id": "4",
                 "marca": "VYAIRE",
-                "name": "Turbina bidireccional  GOLD ESTÁNDAR",
+                "name": "Turbina bidireccional GOLD ESTÁNDAR",
                 "img": "assets/img/productos/vyaire/4.jpg",
                 "sku": "22304"
             },
             {
                 "id": "5",
                 "marca": "VYAIRE",
-                "name": "Filtro MicroGard para Espirometro Microlab y Jaeger",
+                "name": "Filtro MicroGard para Espirómetro Microlab y Jaeger",
                 "img": "assets/img/productos/vyaire/5.jpg",
                 "sku": "22305"
             },
             {
                 "id": "6",
                 "marca": "VYAIRE",
-                "name": "Set para PIMOMETRO DIGITAL Micro RPM",
+                "name": "Set para Pirómetro DIGITAL Micro RPM",
                 "img": "assets/img/productos/vyaire/6.jpg",
                 "sku": "22306"
             },
             {
                 "id": "7",
                 "marca": "VYAIRE",
-                "name": "Cargador de corriente para espirometro Microlab ML3500",
+                "name": "Cargador de corriente para Espirómetro Microlab ML3500",
                 "img": "assets/img/productos/vyaire/7.jpg",
                 "sku": "22307"
             },
             {
                 "id": "8",
                 "marca": "VYAIRE",
-                "name": "Transductor de Espirometro Microlab ML3500",
+                "name": "Transductor de Espirómetro Microlab ML3500",
                 "img": "assets/img/productos/vyaire/8.jpg",
                 "sku": "22308"
             },
             {
                 "id": "9",
                 "marca": "VYAIRE",
-                "name": "Valvual expiratoria para Micro RPM (Pimometro Digital)",
+                "name": "Válvula espiratoria para Micro RPM (Pirómetro Digital)",
                 "img": "assets/img/productos/vyaire/9.jpg",
                 "sku": "22309"
             },
             {
                 "id": "10",
                 "marca": "VYAIRE",
-                "name": "Valvual inspiratoria para Micro RPM (Pimometro Digital)",
+                "name": "Válvula inspiratoria para Micro RPM (Pirómetro Digital)",
                 "img": "assets/img/productos/vyaire/10.jpg",
                 "sku": "22310"
             },
             {
                 "id": "11",
                 "marca": "VYAIRE",
-                "name": "Set para PIMOMETRO DIGITAL Micro RPM",
+                "name": "Set para Pirómetro DIGITAL Micro RPM",
                 "img": "assets/img/productos/vyaire/11.jpg",
                 "sku": "22311"
             },
@@ -175,14 +175,14 @@
             {
                 "id": "13",
                 "marca": "VYAIRE",
-                "name": "Papel para impresora térmica espirometro kit de 1 X 10 rollos",
+                "name": "Papel para impresora térmica Espirómetro kit de 1 X 10 rollos",
                 "img": "assets/img/productos/vyaire/13.jpg",
                 "sku": "22313"
             },
             {
                 "id": "14",
                 "marca": "VYAIRE",
-                "name": "Boquilla de Carton desechable para  espirometrias de Adultos y Pediatria",
+                "name": "Boquilla de Cartón desechable para espirometrías de Adultos y Pediatría",
                 "img": "assets/img/productos/vyaire/14.jpg",
                 "sku": "22314"
             },
