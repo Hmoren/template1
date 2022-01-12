@@ -15,7 +15,7 @@ if($_POST) {
     $clientEmail = trim($_POST['email']);
     $message = trim($_POST['message']);
 
-    $subject = "New message (produkta)";
+    $subject = "Nuevo mensaje desde portal (ivensmedlab.cl)";
 
     $array = array('nameMessage' => '', 'emailMessage' => '', 'messageMessage' => '',);
 
