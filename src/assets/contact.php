@@ -9,7 +9,7 @@ function isEmail($email) {
 if($_POST) {
 
     // Enter the email where you want to receive the message
-    $emailTo = 'hernan.alexis.moreno@gmail.com: limkorn17@gmail.com';
+    $emailTo = 'hernan.alexis.moreno@gmail.com; limkorn17@gmail.com';
 
     $clientName = trim($_POST['name']);
     $clientEmail = trim($_POST['email']);
