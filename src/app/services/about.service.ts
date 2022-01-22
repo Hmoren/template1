@@ -10,12 +10,12 @@ export class AboutService {
 
   constructor(private http: HttpClient) {
     this.cargarAbout();
-   }
+  }
 
   private cargarAbout() {
     // Leer el archivo JSON
     this.http.get('assets/data/data-about.json')
-      .subscribe((resp: InfoAbout) => {        
+      .subscribe((resp: InfoAbout) => {
         this.info = resp;
       });
   }

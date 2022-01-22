@@ -11,11 +11,11 @@ p {
   --bs-text-opacity: 1;
   color: #6c757d !important;
 }
-.feedback {  
-  width: 100%;  
+.feedback {
+  width: 100%;
   color: #dc3545;
 }
-.feedback-ok{
-  width: 100%;  
+.feedback-ok {
+  width: 100%;
   color: #0d9937;
 }

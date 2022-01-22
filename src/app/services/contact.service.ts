@@ -11,9 +11,9 @@ export class ContactService {
 
   constructor(private http: HttpClient) {
     this.cargarContactos()
-   }
+  }
 
-  
+
   private cargarContactos() {
     // Leer el archivo JSON
     this.http.get('assets/data/data-contact.json')

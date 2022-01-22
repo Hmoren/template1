@@ -18,7 +18,7 @@
         "name": "contact-002",
         "estado": true,
         "contacto": [
-            {   
+            {
                 "img":"assets/img/team/icon.jpg",
                 "nombre": "María Isabel Rupallán",
                 "cargo": "Asistente de Ventas",

@@ -18,8 +18,8 @@ export class ContactComponent implements OnInit {
     private fb: FormBuilder,
     private http: HttpClient,
     public _servicio: ContactService
-    ) {     
-     }
+  ) {
+  }
 
   ngOnInit() {
     this.form = this.fb.group({
@@ -37,9 +37,9 @@ export class ContactComponent implements OnInit {
       .set('phone', this.form.get('phone')?.value)
       .set('message', this.form.get('message')?.value);
     const headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
-    this.http.post(environment.urlCorreo, body1, { headers }).subscribe((resultado: any) => {      
-      const returnjson: any[] = Array.of(resultado);      
+    this.http.post(environment.urlCorreo, body1, { headers }).subscribe((resultado: any) => {
       this.mensajeEnviado = true;
+      this.form.reset();
     });
   }
 

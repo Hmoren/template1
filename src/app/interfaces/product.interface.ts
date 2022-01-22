@@ -1,16 +1,16 @@
 
-export interface Product{
-    id: string, 
-    name: string,  
+export interface Product {
+    id: string,
+    name: string,
     url: string
-    productos:Det[]
+    productos: Det[]
 }
 
-interface Det{
-    id: string, 
-    marca: string, 
+interface Det {
+    id: string,
+    marca: string,
     name: string,
     img: string,
-    sku: string  
+    sku: string
 }
 

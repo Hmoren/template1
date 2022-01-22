@@ -1,17 +1,17 @@
 
-export interface Contact{
-    id: string, 
-    name: string,  
+export interface Contact {
+    id: string,
+    name: string,
     estado: boolean,
-    contacto:Det[]
+    contacto: Det[]
 }
 
-interface Det{
-    id: string, 
+interface Det {
+    id: string,
     img: string,
-    nombre: string, 
+    nombre: string,
     cargo: string,
     celular: string,
-    correo: string  
+    correo: string
 }
 

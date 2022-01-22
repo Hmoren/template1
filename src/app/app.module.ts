@@ -29,7 +29,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     ProductDetailComponent,
     PrincipalComponent
-    ],
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
