@@ -31,11 +31,13 @@ export class ContactComponent implements OnInit {
   }
 
   enviar() {
+
+    var cuerpo = 'Nombre: '+ this.form.get('name')?.value + '  Email: '+ this.form.get('email')?.value + '  Telefono: '+ this.form.get('phone')?.value + '  Mensaje: '+ this.form.get('message')?.value;
     const body1 = new HttpParams()
       .set('name', this.form.get('name')?.value)
       .set('email', this.form.get('email')?.value)
       .set('phone', this.form.get('phone')?.value)
-      .set('message', this.form.get('message')?.value);
+      .set('message', cuerpo);
     const headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
     this.http.post(environment.urlCorreo, body1, { headers }).subscribe((resultado: any) => {
       this.mensajeEnviado = true;
